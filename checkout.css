@@ -1,0 +1,19 @@
+h1
+{
+    color: blue
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: border 0.2s, color 0.2;
+    background-color: transparent;
+    color: rgb(29, 190, 64);
+    margin-right: 15px;
+    border: 1px solid rgb(0, 255, 76);
+}

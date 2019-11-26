@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>my restaurant</title>
+       
+     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+ 
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row clearfix">
+                  <!-- <img src="ee.jpg" class="logo"> -->
+                <ul class="nav animated slideInDown">
+                    <li><a href="cake.php">CAKE DELIVERY</a></li>
+                    <li><a href="instruction.html">HOW TO ORDER</a></li>
+                    <li><a href="#">CHECK MORE</a></li>
+                    <li><a href="register.html">SIGN UP</a></li>
+                </ul>
+              <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars">&#xf0c9;</i></a>
+            </div>
+            </nav>
+            <div class="main">
+            <h1>ARE U A FOODIE? <br>
+                WELCOME TO <span class="change">MEAT & EAT</span>
+            </h1>
+            <a href="signin.html" class="btn btn-full">click to order</a>
+            <a href="#" class="btn btn-nav">show me more</a>
+        </div>
+        </header>
+        <script type="text/javascript">
+        function slideshow()
+        {
+            var x = document.getElementById('check-class');
+            if(x.style.display === "none")
+            {
+                x.style.display="block";
+            }
+            else{
+                x.style.display="none";
+            }
+            }
+        
+        </script>
+    </body>
+</html>

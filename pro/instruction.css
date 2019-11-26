@@ -1,0 +1,114 @@
+.tab > input,
+.tab section > div
+{
+display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3
+{
+    display: block;
+}
+
+*, *:after, *:before
+{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./5.jpg');
+    font-family: 'Lato',sans-serif;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: greenyellow;
+    letter-spacing: 0.5px;
+}
+
+
+h3{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(179, 47, 255);
+    letter-spacing: 0.5px;
+}
+
+.tab{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.tab ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tab ul li label{
+float: left;
+    padding: 15px 25px;
+    padding-right: 151px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    background-color: #2e1313;
+    color: red;
+    
+}
+
+.tab ul li label:hover{
+    background-color: rgb(15, 228, 50);
+}
+
+.tab ul li label:active{
+    background-color: rgb(170, 247, 46);
+}
+
+.tab ul li:not(:last-child) label
+{
+border-right-width: 0;
+}
+
+.tab section{
+    clear: both;
+}
+
+.tab section div{
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    color: rgb(12, 2, 2);
+    font-weight: bolder;
+}
+
+.tab section div h2{
+    margin: 0;
+    letter-spacing :1px;
+    color: #34495e;
+}
+
+#tab1:checked ~ nav .tab1 label:after,
+#tab2:checked ~ nav .tab2 label:after,
+#tab3:checked ~ nav .tab3 label:after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    left: 0;
+    bottom: -1px;
+}

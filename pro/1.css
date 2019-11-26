@@ -1,0 +1,53 @@
+.change
+{
+    animation: colorchangeMCDONALDS 1s infinite;
+    display: inline;
+        font-size: 240%;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        width: 1180px;
+    position: absolute;
+    top: 65%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+@keyframes colorchangeMCDONALDS
+{
+    0%{color: red;}
+    25%{color: chartreuse;}
+    50%{color: white;}
+    100%{color: darkblue;}
+}
+h2{
+    position: absolute;
+    top:17%;
+    left:10%;
+    font-size:150%;
+    color:red;
+    
+}
+h4{
+    text-decoration: underline;
+    color:red;
+   top: 0%;
+    font-weight: 900;
+    font-size: 160%;
+}
+p{
+    color:black;
+    font-weight: 900;
+    font-size:200%;
+}
+
+h3{
+    position: absolute;
+    top:9%;
+    left:10%;
+    color:rgb(0, 255, 34);
+font-weight: 900;
+font-size: 140%;
+
+}
